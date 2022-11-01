@@ -1,5 +1,3 @@
-// Assignment code here
-// Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 var strongpw = "1234567890qwertyuiopasdfghjklzxcvbnm`~!@#$%^&*()-=_+QWERTYUIOP[]{}\|ASDFGHJKL:'ZXCVBNM<>?,./";
 var easypw = "1234567890qwertyuiopasdfghjklzxcvbnm";
@@ -30,5 +28,4 @@ function writePassword() {
   }
   passwordText.value = password;
 }
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
