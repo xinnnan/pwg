@@ -1,6 +1,4 @@
 // Assignment code here
-
-
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 var strongpw = "1234567890qwertyuiopasdfghjklzxcvbnm`~!@#$%^&*()-=_+QWERTYUIOP[]{}\|ASDFGHJKL:'ZXCVBNM<>?,./";
@@ -13,7 +11,6 @@ function writePassword() {
   if (!userChoiceL) {
     return;}
   else if (userChoiceL>8 && userChoiceL<128){
-
   var userChoiceT=window.confirm("Whether or not to include lowercase, uppercase, numeric, and/or special characters?")
     if (userChoiceT){
       for (var i = 0; i <= userChoiceL; i++) {
@@ -33,8 +30,6 @@ function writePassword() {
   }
   passwordText.value = password;
 }
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
